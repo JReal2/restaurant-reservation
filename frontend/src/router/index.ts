@@ -20,6 +20,14 @@ const routes = [
     path: '/search',
     component: () => import('@/views/Search.vue'),
   },
+  {
+    path: '/restaurants',
+    component: () => import('@/views/RestaurantList.vue'),
+  },
+  {
+    path: '/restaurants/:id',
+    component: () => import('@/views/RestaurantDetail.vue'),
+  },
 ]
 
 const router = createRouter({
