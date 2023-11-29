@@ -28,6 +28,14 @@ const routes = [
     path: '/restaurants/:id',
     component: () => import('@/views/RestaurantDetail.vue'),
   },
+  {
+    path: '/detail',
+    component: () => import('@/views/Detail.vue')
+  },
+  {
+    path: '/register',
+    component: () => import('@/views/Regist.vue')
+  }
 ]
 
 const router = createRouter({
